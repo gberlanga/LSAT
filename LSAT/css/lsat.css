@@ -1,0 +1,697 @@
+body, h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto', sans-serif;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.row {
+  max-width: 80rem;
+}
+
+.text-centered{
+	text-align: center;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+.centeredXY{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ul#dashboard-actions{
+
+}
+
+ul#dashboard-actions li{
+
+}
+
+.ajaxWaiting{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0,0,0,0.5);
+}
+
+.ajaxWaiting img{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+table td{
+  display: block;
+  overflow: hidden;
+}
+
+.apprvd{
+  color: #61AD22;
+}
+
+.rjctd{
+  color: #FF0000;
+}
+
+.white{
+  color: #FFF;
+}
+
+.alerta{
+  background: #FFAA00;
+}
+
+.grey{
+  color: #AAA !important;
+}
+
+.backgroundImg{
+  background:url('../img/cover.png') no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+}
+
+.h1-intro{
+  font-size: 100pt;
+  font-weight: 100;
+  color: #FFF;
+  text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.3), -3px 3px 1px rgba(0, 0, 0, 0.5), -4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.h2-intro{
+  font-size: 30pt;
+  font-weight: 100;
+  color: #FFF;
+  text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.4), -3px 3px 1px rgba(0, 0, 0, 0.6), -4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+#login{
+  width: 500px;
+  margin: auto;
+}
+
+#login input{
+  background: none;
+  color:#FFF;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+}
+
+/*Shadows and filters*/
+
+.shadow1{
+  text-shadow: 0 1px 0 #bbb,
+  0 2px 0 #b9b9b9,
+  0 3px 0 #aaa,
+  0 4px 0 #a9a9a9,
+  0 5px 0 #999,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+}
+
+.shadow2{
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+}
+
+.blured{
+  filter: grayscale(0.6) blur(1px);
+  -webkit-filter: grayscale(0.6) blur(1px);
+}
+
+
+/* Footer */
+.footer {
+  background-color: #2980b9;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 200px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+
+/* Layout */
+
+.sidebar {
+  background: #fafafa;
+  padding: 32px 20px;
+  min-height: 500px;
+}
+
+.correctAns{
+  background: #9AD5F9;
+}
+
+.grey1{
+  background: #EFEFEF;
+}
+
+.grey2{
+  background: #DEDEDE;
+}
+
+
+/* New web*/
+.weblevels{
+  margin-left: 200px;
+}
+
+.weblevels ul{
+  list-style: outside none none;
+  margin: 0;
+}
+
+.weblevels ul li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 70px;
+  color: #FFF;
+}
+
+.weblevels ul li h5{
+  color: #FFF;
+  margin: 0;
+}
+
+.weblevels ul li:hover{
+  cursor: pointer;
+}
+
+.level1{
+  background: #0DC4E0;
+}
+
+.level2{
+  background: #0174AD;
+}
+
+.level3{
+  background: #2B36A8;
+}
+
+.level4{
+  background: #205BFC;
+}
+
+.level5{
+  background: #07AF8B;
+}
+
+.level6{
+  background: #A1F47A;
+}
+
+.level7{
+  background: #FCCA55;
+}
+
+.level8{
+  background: #FFAC54;
+}
+
+.level9{
+  background: #ED826A;
+}
+
+.level10{
+  background: #D63356;
+}
+
+.weblevels ul li.addLevel{
+  width: 50px;
+  background: #7C0EA0;
+}
+
+.webStructure{
+  width: 1000px;
+  min-height: 500px;
+}
+
+.questionFilter{
+  float: left;
+  width: 200px;
+}
+
+#questionFilter #filter {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.questionFilter .component{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.questionFilter .component select{
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.questionFilter .btn{
+  background:#c97df2;
+  margin: 0;
+  width: 100%;
+}
+
+
+#questionsForLevel{
+
+}
+
+#questionsForLevel ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#questionsForLevel ul li{
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 0 3px 3px 0;
+  box-shadow: 1px 1px 2px #987;
+  width: 40px;
+  margin-bottom:2px;
+}
+
+#questionsForLevel ul li a.delete{
+  color: #ff5400;
+  display: inline;
+  font-size: 11px;
+  padding-right: 10px;
+}
+
+#questionsForLevel ul li a.number{
+  color: #222;
+  display: inline;
+  font-size: 15px;
+}
+
+.searchResults{
+  background: #FFF;
+  float: left;
+  padding: 25px;
+  width: 790px;
+  margin: 5px;
+  min-height: 500px;
+}
+
+.searchResults .results{
+  margin-top: 20px;
+  display: none;
+}
+
+.searchResults .noQuestions{
+  border-radius: 5px;
+  border: 1px dashed #555;
+  padding: 30px;
+  text-align: center;
+  background: #F1F1F1;
+}
+
+
+/* Student */
+
+#studentCompetences{
+
+}
+
+#studentCompetences #groups{
+  width:200px;
+  float:left;
+}
+
+#studentCompetences #groups ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#studentCompetences #groups ul li{
+  margin: 0 0 5px;
+  padding: 0;
+  background:#f7f7f7;
+  box-shadow: 0px 0px 1px #555;
+  padding-left:5px;
+  font-size: 14px;
+}
+
+#studentCompetences #groups li:hover{
+  background:#e5e5e5;
+  cursor:pointer;
+}
+
+#studentCompetences #groups li span{
+  display: block;
+}
+
+#studentCompetences .competences{
+  background: none repeat scroll 0 0 #2F3B4C;
+  float: left;
+  min-height: 500px;
+  padding: 20px;
+  width: 700px;
+  box-shadow: 0px 0px 1px #222;
+  margin-bottom: 20px;
+}
+
+#studentCompetences .competences h3{
+  color: #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+#studentCompetences .competences h3 small{
+  color: #FFF;
+}
+
+#studentCompetences .competences ul{
+  list-style: none;
+  margin: 0;
+}
+
+#studentCompetences .competences ul li a{
+  color: #222;
+  border-radius: 3px;
+  height: 20px;
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+
+a.notStarted{
+  background: #6EBA1D;
+}
+a.notStarted:hover{
+  color: #FFF !important;
+  box-shadow: -1px 2px 2px #091321;
+}
+
+a.started{
+  background: #4CB7FF;
+}
+a.started:hover{
+  color: #FFF !important;
+  box-shadow: -1px 2px 2px #091321;
+}
+
+
+
+a.blocked{
+  background: #FF802B;
+}
+a.finished{
+  background: #C4D1FC;
+}
+
+#studentCompetences .competences ul li span{
+  color: #FFF;
+}
+
+
+.webExplorerLevel{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.webExplorerLevel h6{
+  background: #B1E5ED;
+  margin:0;
+  padding-left:20px;
+
+}
+
+.webExplorerLevel div.body ol{
+  list-style: outside none none;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.webExplorerLevel div.body ol li div.question{
+  padding: 5px;
+}
+
+.webExplorerLevel div.body ol li div.answers table{
+  border: none;
+}
+
+.webExplorerLevel div.body ol li div.answers table select{
+  width:70px;
+  padding:0px;
+  border-radius: 2px;
+  display:inline-block;
+  height:25px;
+  margin: 4px 4px 0;
+}
+
+.webExplorerLevel div.body ol li div.answers table label{
+  width:70px;
+  padding:3px;
+  border-radius: 2px;
+  display:inline-block;
+}
+
+#newCompetence{
+
+}
+
+#newCompetence ol{
+
+}
+
+#newCompetence ol li{
+
+}
+
+#newCompetence ol li input{
+  width: 200px;
+}
+
+
+/*Asignar competencias*/
+
+.assignCompetence{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.assignCompetence h6{
+  background: #B1E5ED;
+  margin:0;
+  padding-left:20px;
+}
+
+.assignCompetence div.body{
+  padding: 5px;
+}
+
+.assignCompetence div.body a{
+  background: #258faf;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 11px;
+  padding: 3px 0;
+  text-align: center;
+  width: 146px;
+}
+
+.availableCompetences{
+
+}
+
+.availableCompetences h3{
+
+}
+
+.availableCompetences ul{
+  list-style: none;
+  margin: 0;
+}
+
+.availableCompetences ul li {
+
+}
+
+.availableCompetences ul li a{
+  background: #258FAF;
+  border-radius: 4px;
+  padding: 0 6px;
+  color: #FFF;
+}
+
+.availableCompetences ul li a:hover{
+  background: #0F6F89;
+}
+
+/* Blocked Student */
+.blockedStudent{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.blockedStudent h6{
+  background: #B1E5ED;
+  margin:0;
+  padding-left:20px;
+
+}
+.blockedStudent div.body{
+  padding: 5px;
+}
+
+
+.stats .progr ul{
+  list-style: none;
+}
+
+.stats .progr ul li{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+}
+
+.stats .progr ul li:first-child{
+  border-radius: 6px 0 0 6px;
+}
+
+.stats .progr ul li:last-child{
+  border-radius: 0 6px 6px 0;
+}
+
+.stats .progr ul li:only-child{
+ border-radius: 6px;
+}
+
+.stats .progr ul li:hover{
+  box-shadow: 0 0 3px #1843E0;
+}
+
+.stats .progr .notStarted{
+  background: #DADADA;
+}
+
+.stats .progr .started{
+  background: #4CB7FF;
+}
+
+.stats .progr .blocked{
+  background: #FF802B;
+}
+.stats .progr .finished{
+  background: #6EBA1D;
+}
+
+.stats table tr, .stats table td  { line-height: 10px; }
+
+
+/*Contestar alumno*/
+.questionDetail{
+
+}
+
+.questionDetail ul{
+  list-style: none;
+  margin: 0;
+}
+
+.questionDetail ul li{
+  border: 1px solid #AAA;
+  margin-bottom: 5px;
+  width: 900px;
+  min-height: 100px;
+  clear: both;
+  display: inline-block;
+  position: relative;
+}
+
+
+.questionDetail .ansBox{
+  background: #237791;
+  text-align: center;
+  width: 20px;
+  height: 100%;
+  float: left;
+  position: absolute;
+}
+
+.questionDetail .ansBox input{
+  position: absolute;
+  top: 45%;
+  margin: 0 0 0 -6px;
+}
+
+.questionDetail .ansText{
+  width: 870px;
+  float: right;
+}
+
+.questionDetail .ansText p{
+  margin: 0;
+  padding: 0;
+}
